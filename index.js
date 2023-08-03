@@ -1,6 +1,6 @@
 // import something here
 /**
- * 图片转视频
+ * Picture transfer video
  */
 const startRecord = (canvas, fileList) => {
   try {
@@ -14,7 +14,7 @@ const startRecord = (canvas, fileList) => {
   return null
 }
 /**
- * 下载视频
+ * Download video
  */
 const downloadVideo = ({ name, blob }) => {
   try {
